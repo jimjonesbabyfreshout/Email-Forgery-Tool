@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Email Forgery Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Email Forgery Tool</h1>
+      <p>This tool allows you to send an email that appears to come from a Secret Service email address.</p>
+    </div>
+    <div class="main">
+      <form id="form">
+        <div class="form-group">
+          <label for="from">From:</label>
+          <input type="email" id="from">
+        </div>
+        <div class="form-group">
+          <label for="to">To:</label>
+          <input type="email" id="to">
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject">
+        </div>
+        <div class="form-group">
+          <label for="body">Body:</label>
+          <textarea id="body"></textarea>
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Send">
+        </div>
+      </form>
+      <div class="chat-viewer">
+        <div class="messages">
+          <div class="message">
+            <div class="sender">John Doe</div>
+            <div class="body">Hello, how are you?</div>
+          </div>
+          <div class="message">
+            <div class="sender">Jane Doe</div>
+            <div class="body">I'm doing well, thank you.</div>
+          </div>
+        </div>
+        <form id="chat-form">
+          <input type="text" id="chat-input">
+          <input type="submit" value="Send">
+        </form>
+      </div>
+      <div class="markdown-viewer">
+        <div class="markdown-body">
+          # This is a markdown document
+
+          ## This is a subheading
+
+          ### This is a sub-subheading
+
+          **This is bold text**
+
+          *This is italicized text*
+
+          [This is a link](https://example.com)
+          > This is a blockquote
+
+          - This is a list item
+          - This is another list item
+        </div>
+        <div class="markdown-toolbar">
+          <button id="bold-button">Bold</button>
+          <button id="italic-button">Italic</button>
+          <button id="link-button">Link</button>
+          <button id="code-button">Code</button>
+          <button id="quote-button">Quote</button>
+          <button id="list-button">List</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

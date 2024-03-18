@@ -1,0 +1,113 @@
+body {
+  background-color: #222;
+  color: #fff;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.main {
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.chat-viewer {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.messages {
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.message {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.sender {
+  font-weight: bold;
+}
+
+.body {
+  font-size: 14px;
+}
+
+#chat-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#chat-input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.markdown-viewer {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.markdown-body {
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.markdown-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.markdown-toolbar button {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

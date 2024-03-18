@@ -1,0 +1,12 @@
+{
+  "name": "email-forgery-tool",
+  "version": "1.0.0",
+  "description": "A tool to send an email that appears to come from a Secret Service email address.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "nodemailer": "^6.7.0"
+  }
+}
